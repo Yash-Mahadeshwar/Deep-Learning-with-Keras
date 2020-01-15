@@ -1,0 +1,98 @@
+
+Usage if Initializers
+    1. Baseline model for classification on CIFAR10 dataset
+loss: 1.4640
+acc: 0.4737
+val_loss: 1.5105
+val_acc: 0.4603
+
+    2. Model with Initializer as random uniform and zero
+loss: 1.4571
+acc: 0.4773
+val_loss: 1.4673
+val_acc: 0.4795
+
+    3. Model with weights as ones
+loss: 14.5063
+acc: 0.1000
+val_loss: 14.5063
+val_acc: 0.1000
+
+    4. Model initialized with constant value
+loss: 2.3027
+acc: 0.0992
+val_loss: 2.3026
+val_acc: 0.1000
+
+    5. Random Normal
+loss: 1.4667
+acc: 0.4748
+val_loss: 1.4949
+val_acc: 0.4652
+
+    6. Random Uniform
+loss: 1.4584
+acc: 0.4782
+val_loss: 1.4513
+val_acc: 0.4890
+
+    7. Truncated Normal
+loss: 1.4590
+acc: 0.4782
+val_loss: 1.4486
+val_acc: 0.4865
+
+    8. Variance Scaling
+loss: 1.4508
+acc: 0.4818
+val_loss: 1.4495
+val_acc: 0.4860
+
+    9. Orthogonal
+loss: 1.5190
+acc: 0.4586
+val_loss: 1.5585
+val_acc: 0.4411
+
+    10. Identity
+loss: 2.0564
+acc: 0.1897
+val_loss: 2.0474
+val_acc: 0.1890
+
+    11. Lecun_uniform
+loss: 1.4452
+acc: 0.4819
+val_loss: 1.4938
+val_acc: 0.4692
+
+    12. Glorot_normal
+loss: 1.4526
+acc: 0.4815
+val_loss: 1.4702
+val_acc: 0.4772
+
+    13. Glorot_uniform
+loss: 1.4541
+acc: 0.4787
+val_loss: 1.4801
+val_acc: 0.4710
+
+    14. He_mormal
+loss: 1.4651
+acc: 0.4730
+val_loss: 1.4525
+val_acc: 0.4782
+
+    15. Lecun_normal
+loss: 1.4723
+acc: 0.4714
+val_loss: 1.4658
+val_acc: 0.4787
+
+    16. He_uniform
+loss: 1.4595
+acc: 0.4769
+val_loss: 1.4919
+val_acc: 0.4671
+
